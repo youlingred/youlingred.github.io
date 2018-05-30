@@ -3,20 +3,13 @@
 
 
     
-    
-    
-    
-    
-    
-    
-    
   <url>
-    <loc>http://yoursite.com/2018/05/30/hello-world/</loc>
-    <lastmod>2018-05-30T07:29:20.129Z</lastmod>
+    <loc>https://youlingred.github.io/2018/05/31/test/</loc>
+    <lastmod>2018-05-30T16:27:12.743Z</lastmod>
     <data>
         <display>
-        <title>Hello World</title>
-        <pubTime>2018-05-30T07:29:20.129Z</pubTime>
+        <title>test</title>
+        <pubTime>2018-05-30T16:26:14.000Z</pubTime>
         
          
            
@@ -24,4 +17,33 @@
     </data>
     </url>
 
+    
+  <url>
+    <loc>https://youlingred.github.io/2018/05/30/hello-world/</loc>
+    <lastmod>2018-05-30T15:35:35.175Z</lastmod>
+    <data>
+        <display>
+        <title>Hello World</title>
+        <pubTime>2018-05-30T15:35:35.174Z</pubTime>
+        
+        <tag>标签1</tag>
+         
+        <tag>标签2</tag>
+         
+         
+           
+             
+              <breadCrumb title="Hexo教程" url="https://youlingred.github.io/categories/Hexo%E6%95%99%E7%A8%8B/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+    
+    
+    
+    
+    
+    
 </urlset>

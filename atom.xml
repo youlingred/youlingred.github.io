@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
-  <updated>2018-05-30T07:29:20.129Z</updated>
-  <id>http://yoursite.com/</id>
+  <link href="https://youlingred.github.io/"/>
+  <updated>2018-05-30T16:27:12.743Z</updated>
+  <id>https://youlingred.github.io/</id>
   
   <author>
     <name>kevin</name>
@@ -17,11 +17,25 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>test</title>
+    <link href="https://youlingred.github.io/2018/05/31/test/"/>
+    <id>https://youlingred.github.io/2018/05/31/test/</id>
+    <published>2018-05-30T16:26:14.000Z</published>
+    <updated>2018-05-30T16:27:12.743Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2018/05/30/hello-world/"/>
-    <id>http://yoursite.com/2018/05/30/hello-world/</id>
-    <published>2018-05-30T07:29:20.129Z</published>
-    <updated>2018-05-30T07:29:20.129Z</updated>
+    <link href="https://youlingred.github.io/2018/05/30/hello-world/"/>
+    <id>https://youlingred.github.io/2018/05/30/hello-world/</id>
+    <published>2018-05-30T15:35:35.174Z</published>
+    <updated>2018-05-30T15:35:35.175Z</updated>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
     
@@ -34,6 +48,12 @@
     
     </summary>
     
+      <category term="Hexo教程" scheme="https://youlingred.github.io/categories/Hexo%E6%95%99%E7%A8%8B/"/>
+    
+    
+      <category term="标签1" scheme="https://youlingred.github.io/tags/%E6%A0%87%E7%AD%BE1/"/>
+    
+      <category term="标签2" scheme="https://youlingred.github.io/tags/%E6%A0%87%E7%AD%BE2/"/>
     
   </entry>
   
