@@ -9,7 +9,7 @@
  */
 
 /**
- * 
+ *
  */
 
 /* Mixins */
@@ -3258,12 +3258,12 @@ body {
   font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
   font-size: 14px;
   line-height: 1.42857;
-  color: #333333;
+  color: #444;
   background-color: #fff;
 }
 
 a {
-  color: #333333;
+  color: #444;
   text-decoration: none;
 }
 

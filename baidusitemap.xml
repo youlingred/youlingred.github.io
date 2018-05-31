@@ -4,36 +4,23 @@
 
     
   <url>
-    <loc>https://youlingred.github.io/2018/05/31/test/</loc>
-    <lastmod>2018-05-30T16:27:12.743Z</lastmod>
+    <loc>https://youlingred.github.io/2018/05/31/hello-world/</loc>
+    <lastmod>2018-05-31T02:12:48.465Z</lastmod>
     <data>
         <display>
-        <title>test</title>
-        <pubTime>2018-05-30T16:26:14.000Z</pubTime>
+        <title>从0开始使用hexo搭建博客教程</title>
+        <pubTime>2018-05-31T02:12:48.465Z</pubTime>
         
+        <tag>hexo</tag>
          
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://youlingred.github.io/2018/05/30/hello-world/</loc>
-    <lastmod>2018-05-30T15:35:35.175Z</lastmod>
-    <data>
-        <display>
-        <title>Hello World</title>
-        <pubTime>2018-05-30T15:35:35.174Z</pubTime>
-        
-        <tag>标签1</tag>
+        <tag>blog</tag>
          
-        <tag>标签2</tag>
+        <tag>github.io</tag>
          
          
            
              
-              <breadCrumb title="Hexo教程" url="https://youlingred.github.io/categories/Hexo%E6%95%99%E7%A8%8B/"/>
+              <breadCrumb title="Hexo" url="https://youlingred.github.io/categories/Hexo/"/>
           
         </display>
     </data>
