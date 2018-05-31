@@ -1629,9 +1629,7 @@ input[type="button"].btn-block {
 .fade.in {
   opacity: 1;
 }
-.donate-footer a:active{
-    background-color: #4CAF50;
-}
+
 .collapse {
   display: none;
 }
@@ -3259,7 +3257,7 @@ body {
   padding-right: 0 !important;
   font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
   font-size: 14px;
-  line-height: 1.42857;
+  line-height: 2;
   color: #444;
   background-color: #fff;
 }
