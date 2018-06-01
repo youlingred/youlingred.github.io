@@ -2,9 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://youlingred.github.io/2018/06/01/lerna/</loc>
+    
+    <lastmod>2018-06-01T08:01:56.834Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://youlingred.github.io/2018/05/31/cypress/</loc>
+    
+    <lastmod>2018-05-31T13:40:11.754Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://youlingred.github.io/2018/05/31/unit-e2e/</loc>
+    
+    <lastmod>2018-05-31T12:25:43.984Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://youlingred.github.io/2018/05/31/hexo-zero/</loc>
     
-    <lastmod>2018-05-31T06:28:25.319Z</lastmod>
+    <lastmod>2018-05-31T12:15:17.140Z</lastmod>
     
   </url>
   
@@ -12,6 +33,20 @@
     <loc>https://youlingred.github.io/about/index.html</loc>
     
     <lastmod>2018-05-30T13:38:33.899Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://youlingred.github.io/tags/index.html</loc>
+    
+    <lastmod>2018-05-30T08:03:08.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://youlingred.github.io/categories/index.html</loc>
+    
+    <lastmod>2018-05-30T08:03:08.000Z</lastmod>
     
   </url>
   
@@ -30,28 +65,14 @@
   </url>
   
   <url>
-    <loc>https://youlingred.github.io/links/index.html</loc>
-    
-    <lastmod>2018-05-30T08:03:08.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://youlingred.github.io/categories/index.html</loc>
-    
-    <lastmod>2018-05-30T08:03:08.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://youlingred.github.io/tags/index.html</loc>
-    
-    <lastmod>2018-05-30T08:03:08.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://youlingred.github.io/repository/index.html</loc>
+    
+    <lastmod>2018-05-30T08:03:08.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://youlingred.github.io/links/index.html</loc>
     
     <lastmod>2018-05-30T08:03:08.000Z</lastmod>
     

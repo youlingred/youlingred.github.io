@@ -4,12 +4,82 @@
 
     
   <url>
-    <loc>https://youlingred.github.io/2018/05/31/hexo-zero/</loc>
-    <lastmod>2018-05-31T06:28:25.319Z</lastmod>
+    <loc>https://youlingred.github.io/2018/06/01/lerna/</loc>
+    <lastmod>2018-06-01T08:01:56.834Z</lastmod>
     <data>
         <display>
-        <title>从0开始使用hexo搭建博客教程</title>
-        <pubTime>2018-05-31T06:28:25.319Z</pubTime>
+        <title>lerna使用教程</title>
+        <pubTime>2018-06-01T06:37:39.000Z</pubTime>
+        
+        <tag>工具</tag>
+         
+        <tag>多包管理</tag>
+         
+         
+           
+             
+              <breadCrumb title="node" url="https://youlingred.github.io/categories/node/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://youlingred.github.io/2018/05/31/cypress/</loc>
+    <lastmod>2018-05-31T13:40:11.754Z</lastmod>
+    <data>
+        <display>
+        <title>cypress前端E2E(端到端)测试框架</title>
+        <pubTime>2018-05-31T12:12:43.000Z</pubTime>
+        
+        <tag>工具</tag>
+         
+        <tag>测试</tag>
+         
+        <tag>端到端</tag>
+         
+         
+           
+             
+              <breadCrumb title="node" url="https://youlingred.github.io/categories/node/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://youlingred.github.io/2018/05/31/unit-e2e/</loc>
+    <lastmod>2018-05-31T12:25:43.984Z</lastmod>
+    <data>
+        <display>
+        <title>unit单元测试和e2e端到端测试的区别</title>
+        <pubTime>2018-05-31T12:20:36.000Z</pubTime>
+        
+        <tag>测试</tag>
+         
+        <tag>单元测试</tag>
+         
+        <tag>端到端测试</tag>
+         
+         
+           
+             
+              <breadCrumb title="知识点" url="https://youlingred.github.io/categories/%E7%9F%A5%E8%AF%86%E7%82%B9/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://youlingred.github.io/2018/05/31/hexo-zero/</loc>
+    <lastmod>2018-05-31T12:15:17.140Z</lastmod>
+    <data>
+        <display>
+        <title>从零始使用hexo搭建博客教程</title>
+        <pubTime>2018-05-31T12:15:17.140Z</pubTime>
         
         <tag>hexo</tag>
          

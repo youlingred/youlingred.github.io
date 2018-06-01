@@ -17,20 +17,21 @@
   <meta http-equiv="window-target" content="_top" />
   
   
-  <title>关于 | Hexo</title>
-  <meta name="description" content="个人简介">
-<meta property="og:type" content="website">
-<meta property="og:title" content="关于">
-<meta property="og:url" content="https://youlingred.github.io/about/index.html">
+  <title>cypress前端E2E(端到端)测试框架 | Hexo</title>
+  <meta name="description" content="Cypress  Cypress 是什么官网视频 如果不太清楚单元测试和端到端测试的区别请看这里 Cypress是什么Cypress是为现代网络而构建的下一代前端测试工具,解决开发人员和QA工程师在面对应用测试过程的痛点. 使以下过程简单化:  配置测试 编写测试 运行调试 调试测试  Cypress通常与Selenium相提并论; 然而两者在结构和基础上都有所不同。Cypress不会让你像Se">
+<meta name="keywords" content="工具,测试,端到端">
+<meta property="og:type" content="article">
+<meta property="og:title" content="cypress前端E2E(端到端)测试框架">
+<meta property="og:url" content="https://youlingred.github.io/2018/05/31/cypress/index.html">
 <meta property="og:site_name" content="kevin的个人博客">
-<meta property="og:description" content="个人简介">
+<meta property="og:description" content="Cypress  Cypress 是什么官网视频 如果不太清楚单元测试和端到端测试的区别请看这里 Cypress是什么Cypress是为现代网络而构建的下一代前端测试工具,解决开发人员和QA工程师在面对应用测试过程的痛点. 使以下过程简单化:  配置测试 编写测试 运行调试 调试测试  Cypress通常与Selenium相提并论; 然而两者在结构和基础上都有所不同。Cypress不会让你像Se">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2018-05-30T13:38:33.899Z">
+<meta property="og:updated_time" content="2018-05-31T13:40:11.754Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="关于">
-<meta name="twitter:description" content="个人简介">
+<meta name="twitter:title" content="cypress前端E2E(端到端)测试框架">
+<meta name="twitter:description" content="Cypress  Cypress 是什么官网视频 如果不太清楚单元测试和端到端测试的区别请看这里 Cypress是什么Cypress是为现代网络而构建的下一代前端测试工具,解决开发人员和QA工程师在面对应用测试过程的痛点. 使以下过程简单化:  配置测试 编写测试 运行调试 调试测试  Cypress通常与Selenium相提并论; 然而两者在结构和基础上都有所不同。Cypress不会让你像Se">
   <!-- Canonical links -->
-  <link rel="canonical" href="https://youlingred.github.io/about/index.html">
+  <link rel="canonical" href="https://youlingred.github.io/2018/05/31/cypress/index.html">
   
     <link rel="alternate" href="/atom.xml" title="kevin的个人博客" type="application/atom+xml">
   
@@ -276,115 +277,206 @@
 </aside>
 
   
-  <aside class="sidebar" itemscope itemtype="http://schema.org/WPSideBar">
+  
+<aside class="sidebar sidebar-toc in" id="collapseToc" itemscope itemtype="http://schema.org/WPSideBar">
   <div class="slimContent">
-    
-    <div class="widget">
-      <h3 class="widget-title">个人链接</h3>
-      <div class="widget-body">
-        <ul class="link-list lh-2x">
-          
-          <li>
-            Github:
-            <a href="https://github.com/youlingred" target="_blank">https://github.com/youlingred</a>
-          </li>
-          
-          <li>
-            Blog:
-            <a href="http://youlingred.github.io" target="_blank">http://youlingred.github.io</a>
-          </li>
-          
-        </ul>
-      </div>
-    </div>
-    
-    
-    <div class="widget">
-      <h3 class="widget-title">技能</h3>
-      <div class="widget-body">
-        <ul class="skill-list lh-2x">
-          
-          <li class="clearfix">
-            <span>Javascript</span>
-            <span class="pull-right">★★★★★</span>
-          </li>
-          
-          <li class="clearfix">
-            <span>node</span>
-            <span class="pull-right">★★★★★</span>
-          </li>
-          
-          <li class="clearfix">
-            <span>python</span>
-            <span class="pull-right">★★★★☆</span>
-          </li>
-          
-          <li class="clearfix">
-            <span>php</span>
-            <span class="pull-right">★★★★☆</span>
-          </li>
-          
-          <li class="clearfix">
-            <span>vue</span>
-            <span class="pull-right">★★★★★</span>
-          </li>
-          
-          <li class="clearfix">
-            <span>react</span>
-            <span class="pull-right">★★★★★</span>
-          </li>
-          
-          <li class="clearfix">
-            <span>webpack</span>
-            <span class="pull-right">★★★★★</span>
-          </li>
-          
-          <li class="clearfix">
-            <span>as3</span>
-            <span class="pull-right">★★★★★</span>
-          </li>
-          
-        </ul>
-      </div>
-    </div>
-    
-    
-    <div class="widget">
-      <h3 class="widget-title">个人标签</h3>
-      <div class="widget-body">
-        
-        <span class="label label-default mb">Web前端</span>
-        
-        <span class="label label-default mb">服务器开发</span>
-        
-        <span class="label label-default mb">项目框架设计</span>
-        
-        <span class="label label-default mb">flash</span>
-        
-        <span class="label label-default mb">node开发</span>
-        
-      </div>
-    </div>
-    
-    
-    
+    <nav id="toc" class="article-toc">
+      <h3 class="toc-title">文章目录</h3>
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Cypress是什么"><span class="toc-text">Cypress是什么</span></a></li></ol>
+    </nav>
   </div>
 </aside>
-<main class="main" role="main">
-  <article class="article archives-about article-type-normal" itemscope="">
-  <header class="article-header">
-    <h1 itemprop="title">关于</h1>
-    
-    <p class="text-muted">个人简介</p>
-    
-  </header>
-  <div class="article-body">
-    <p>个人详细介绍</p>
 
+
+<main class="main" role="main">
+  <div class="content">
+  <article id="post-cypress" class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
+    
+    <div class="article-header">
+      
+        
+  
+    <h1 class="article-title" itemprop="name">
+      cypress前端E2E(端到端)测试框架
+    </h1>
+  
+
+      
+      <div class="article-meta">
+        <span class="article-date">
+    <i class="icon icon-calendar-check"></i>
+	<a href="/2018/05/31/cypress/" class="article-date">
+	  <time datetime="2018-05-31T12:12:43.000Z" itemprop="datePublished">2018-05-31</time>
+	</a>
+</span>
+        
+  <span class="article-category">
+    <i class="icon icon-folder"></i>
+    <a class="article-category-link" href="/categories/node/">node</a>
+  </span>
+
+        
+  <span class="article-tag">
+    <i class="icon icon-tags"></i>
+	<a class="article-tag-link" href="/tags/工具/">工具</a>, <a class="article-tag-link" href="/tags/测试/">测试</a>, <a class="article-tag-link" href="/tags/端到端/">端到端</a>
+  </span>
+
+
+        
+
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2018/05/31/cypress/#comments" class="article-comment-link">评论</a></span>
+        
+      </div>
+    </div>
+    <div class="article-entry markdown-body" itemprop="articleBody">
+      
+        <ul>
+<li><a href="https://www.cypress.io/" target="_blank" rel="noopener">Cypress</a></li>
+</ul>
+<p><iframe src="https://player.vimeo.com/video/237527670?title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen></iframe><br><code>Cypress 是什么</code><a href="https://www.cypress.io/" target="_blank" rel="noopener">官网</a>视频</p>
+<p>如果不太清楚<code>单元测试</code>和<code>端到端测试</code>的区别请看<a href="../unit-e2e">这里</a></p>
+<h2 id="Cypress是什么"><a href="#Cypress是什么" class="headerlink" title="Cypress是什么"></a>Cypress是什么</h2><p>Cypress是为现代网络而构建的下一代前端测试工具,解决开发人员和QA工程师在面对应用测试过程的痛点.</p>
+<p>使以下过程简单化:</p>
+<ul>
+<li><code>配置测试</code></li>
+<li><code>编写测试</code></li>
+<li><code>运行调试</code></li>
+<li><code>调试测试</code></li>
+</ul>
+<p><code>Cypress</code>通常与<code>Selenium</code>相提并论; 然而两者在结构和基础上都有所不同。Cypress不会让你像Selenium一样受限。</p>
+<p>这使你可以编写更快，更简单，更可靠的测试。</p>
+
+      
+    </div>
+    <div class="article-footer">
+      <blockquote class="mt-2x block-common">
+  <ul class="post-copyright list-unstyled">
+    
+    <li class="post-copyright-link hidden-xs">
+      <strong>本文链接：</strong>
+      <a href="https://youlingred.github.io/2018/05/31/cypress/" title="cypress前端E2E(端到端)测试框架" target="_blank" rel="external">https://youlingred.github.io/2018/05/31/cypress/</a>
+    </li>
+    
+    <li class="post-copyright-license">
+      <strong>版权声明： </strong> 本博客所有文章除特别声明外，均采用 <a href="http://creativecommons.org/licenses/by/4.0/deed.zh" target="_blank" rel="external">CC BY 4.0 CN协议</a> 许可协议。转载请注明出处！
+    </li>
+  </ul>
+</blockquote>
+
+
+<div class="panel panel-default panel-badger">
+  <div class="panel-body">
+    <figure class="media">
+      <div class="media-left">
+        <a href="https://github.com/youlingred" target="_blank" class="img-burn thumb-sm visible-lg">
+          <img src="/images/avatar.jpeg" class="img-rounded w-full" alt="">
+        </a>
+      </div>
+      <div class="media-body">
+        <h3 class="media-heading"><a href="https://github.com/youlingred" target="_blank"><span class="text-dark">kevin</span><small class="ml-1x">全栈工程师</small></a></h3>
+        <div>以开发为主要谋生手段的涉足游戏,金融,电商等多种领域的it人士</div>
+      </div>
+    </figure>
   </div>
-</article>
+</div>
+
+
+    </div>
+  </article>
+  
+    
+  <section id="comments">
+  	
+       
+    <div id="uyan_frame"></div>
+
+    
+  </section>
+
 
   
+</div>
+
+  <nav class="bar bar-footer clearfix" data-stick-bottom>
+  <div class="bar-inner">
+  
+  <ul class="pager pull-left">
+    
+    <li class="prev">
+      <a href="/2018/05/31/hexo-zero/" title="从零始使用hexo搭建博客教程"><i class="icon icon-angle-left" aria-hidden="true"></i><span>&nbsp;&nbsp;上一篇</span></a>
+    </li>
+    
+    
+    
+    <li class="toggle-toc">
+      <a class="toggle-btn collapsed" data-toggle="collapse" href="#collapseToc" aria-expanded="false" title="文章目录" role="button">
+        <span>[&nbsp;</span><span>文章目录</span>
+        <i class="text-collapsed icon icon-anchor"></i>
+        <i class="text-in icon icon-close"></i>
+        <span>]</span>
+      </a>
+    </li>
+    
+  </ul>
+  
+  
+  <!-- Button trigger modal -->
+  <button type="button" class="btn btn-fancy btn-donate pop-onhover bg-gradient-warning" data-toggle="modal" data-target="#donateModal"><span>赏</span></button>
+  <!-- <div class="wave-icon wave-icon-danger btn-donate" data-toggle="modal" data-target="#donateModal">
+    <div class="wave-circle"><span class="icon"><i class="icon icon-bill"></i></span></div>
+  </div> -->
+  
+  
+  <div class="bar-right">
+    
+    <div class="share-component" data-sites="weibo,qq,wechat" data-mobile-sites="weibo,qq,qzone"></div>
+    
+  </div>
+  </div>
+</nav>
+  
+<!-- Modal -->
+<div class="modal modal-center modal-small modal-xs-full fade" id="donateModal" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content donate">
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      <div class="modal-body">
+        <div class="donate-box">
+          <div class="donate-head">
+            <p>感谢您的支持，我会继续努力的!</p>
+          </div>
+          <div class="tab-content">
+              <div role="tabpanel" class="tab-pane fade active in" id="wechatpay">
+                  <div class="donate-payimg">
+                      <img src="/images/donate/wechatpayimg.png" alt="扫码支持" title="扫一扫" />
+                  </div>
+                  <p class="text-muted mv">扫码打赏，你说多少就多少</p>
+                  <p class="text-grey">打开微信扫一扫，即可进行扫码打赏哦</p>
+              </div>
+            <div role="tabpanel" class="tab-pane fade" id="alipay">
+              <div class="donate-payimg">
+                <img src="/images/donate/alipayimg.png" alt="扫码支持" title="扫一扫" />
+              </div>
+              <p class="text-muted mv">扫码打赏，你说多少就多少</p>
+              <p class="text-grey">打开支付宝扫一扫，即可进行扫码打赏哦</p>
+            </div>
+          </div>
+          <div class="donate-footer">
+            <ul class="nav nav-tabs nav-justified" role="tablist">
+              <li role="presentation" class="active">
+                <a href="#wechatpay" id="wechatpay-tab" aria-controls="wechatpay" role="tab" data-toggle="tab" aria-expanded="true"><i class="icon icon-wepay"></i> 微信支付</a>
+              </li>
+              <li role="presentation" class="">
+                <a href="#alipay" id="alipay-tab" aria-controls="alipay" role="tab" data-toggle="tab"  aria-expanded="false"><i class="icon icon-alipay"></i> 支付宝</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 
 </main>
@@ -438,6 +530,16 @@ window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
     
     
     
+        
+
+
+    
+    
+        
+    
+    <script defer type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=[object Object]"></script>
+
+
     
     
 
