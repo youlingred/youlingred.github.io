@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://youlingred.github.io/"/>
-  <updated>2018-06-01T08:47:25.023Z</updated>
+  <updated>2018-06-01T08:55:55.104Z</updated>
   <id>https://youlingred.github.io/</id>
   
   <author>
@@ -21,12 +21,27 @@
     <link href="https://youlingred.github.io/2018/06/01/%E5%A6%82%E4%BD%95%E5%88%A0%E9%99%A4GIT%E4%B8%AD%E7%9A%84.DS_Store/"/>
     <id>https://youlingred.github.io/2018/06/01/如何删除GIT中的.DS_Store/</id>
     <published>2018-06-01T08:45:38.000Z</published>
-    <updated>2018-06-01T08:47:25.023Z</updated>
+    <updated>2018-06-01T08:55:55.104Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="DS-Store-是什么"><a href="#DS-Store-是什么" class="headerlink" title=".DS_Store 是什么"></a>.DS_Store 是什么</h2><p>使用 Mac 的用户可能会注意到，系统经常会自动在每个目录生成一个隐藏的 .DS_Store 文件。.DS_Store(英文全称 Desktop Services Store)是一种由苹果公司的Mac OS X操作系统所创造的隐藏文件，目的在于存贮目录的自定义属性，例如文件们的图标位置或者是背景色的选择。相当于 Windows 下的 desktop.ini。</p><h2 id="删除-DS-Store"><a href="#删除-DS-Store" class="headerlink" title="删除 .DS_Store"></a>删除 .DS_Store</h2><p>如果你的项目中还没有自动生成的 .DS_Store 文件，那么直接将 .DS_Store 加入到 .gitignore 文件就可以了。如果你的项目中已经存在 .DS_Store 文件，那就需要先从项目中将其删除，再将它加入到 .gitignore。如下：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 删除项目中的所有.DS_Store。这会跳过不在项目中的 .DS_Store</span></span><br><span class="line">$ find . -name .DS_Store -print0 | xargs -0 git rm -f --ignore-unmatch</span><br><span class="line"><span class="comment"># 将 .DS_Store 加入到 .gitignore</span></span><br><span class="line">$ <span class="built_in">echo</span> .DS_Store &gt;&gt; ~/.gitignore</span><br><span class="line"><span class="comment"># 更新项目</span></span><br><span class="line">$ git add --all</span><br><span class="line">$ git commit -m <span class="string">'.DS_Store banished!'</span></span><br></pre></td></tr></table></figure><p>如果你只需要删除磁盘上的 .DS_Store，可以使用下面的命令来删除当前目录及其子目录下的所有.DS_Store 文件:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ find . -name <span class="string">'*.DS_Store'</span> -<span class="built_in">type</span> f -delete</span><br></pre></td></tr></table></figure></p><h2 id="禁用或启用自动生成"><a href="#禁用或启用自动生成" class="headerlink" title="禁用或启用自动生成"></a>禁用或启用自动生成</h2><p>禁止.DS_store生成：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool T</span><br></pre></td></tr></table></figure><p>恢复.DS_store生成：恢复.DS_store生成：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ defaults delete com.apple.desktopservices DSDontWriteNetworkStores</span><br></pre></td></tr></table></figure>]]></content>
     
     <summary type="html">
     
+      
+      
+        &lt;h2 id=&quot;DS-Store-是什么&quot;&gt;&lt;a href=&quot;#DS-Store-是什么&quot; class=&quot;headerlink&quot; title=&quot;.DS_Store 是什么&quot;&gt;&lt;/a&gt;.DS_Store 是什么&lt;/h2&gt;&lt;p&gt;使用 Mac 的用户可能会注意到，系统经常会自动在每个目
+      
+    
     </summary>
     
+      <category term="git" scheme="https://youlingred.github.io/categories/git/"/>
+    
+    
+      <category term="git" scheme="https://youlingred.github.io/tags/git/"/>
+    
+      <category term="文件" scheme="https://youlingred.github.io/tags/%E6%96%87%E4%BB%B6/"/>
+    
+      <category term="mac" scheme="https://youlingred.github.io/tags/mac/"/>
     
   </entry>
   
