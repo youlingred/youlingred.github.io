@@ -17,17 +17,21 @@
   <meta http-equiv="window-target" content="_top" />
   
   
-  <title>404 Not Found：该页无法显示 | Hexo</title>
-  <meta property="og:type" content="website">
-<meta property="og:title" content="404 Not Found：该页无法显示">
-<meta property="og:url" content="https://youlingred.github.io/404.html">
+  <title>lerna使用教程 | Hexo</title>
+  <meta name="description" content="为什么使用lerna模块化编程中代码库拆分和代码共享非常普遍，如果能把拆分的模块作为单独的node包来发布，通过npm分发代码可以得到很好的共用。但是这需要每个模块配置一个package.json，管理、测试、发布、更新都比较麻烦，这就需要lerna这样的工具来弥补npm的不足。Lerna是一个工具，可以优化使用git和npm管理多包存储库的工作流程。 一个lerna的repo结构就像这样：每个p">
+<meta name="keywords" content="工具,多包管理">
+<meta property="og:type" content="article">
+<meta property="og:title" content="lerna使用教程">
+<meta property="og:url" content="https://youlingred.github.io/2018/06/01/lerna使用教程/index.html">
 <meta property="og:site_name" content="kevin的个人博客">
+<meta property="og:description" content="为什么使用lerna模块化编程中代码库拆分和代码共享非常普遍，如果能把拆分的模块作为单独的node包来发布，通过npm分发代码可以得到很好的共用。但是这需要每个模块配置一个package.json，管理、测试、发布、更新都比较麻烦，这就需要lerna这样的工具来弥补npm的不足。Lerna是一个工具，可以优化使用git和npm管理多包存储库的工作流程。 一个lerna的repo结构就像这样：每个p">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2018-05-30T08:03:08.000Z">
+<meta property="og:updated_time" content="2018-06-01T08:01:56.834Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="404 Not Found：该页无法显示">
+<meta name="twitter:title" content="lerna使用教程">
+<meta name="twitter:description" content="为什么使用lerna模块化编程中代码库拆分和代码共享非常普遍，如果能把拆分的模块作为单独的node包来发布，通过npm分发代码可以得到很好的共用。但是这需要每个模块配置一个package.json，管理、测试、发布、更新都比较麻烦，这就需要lerna这样的工具来弥补npm的不足。Lerna是一个工具，可以优化使用git和npm管理多包存储库的工作流程。 一个lerna的repo结构就像这样：每个p">
   <!-- Canonical links -->
-  <link rel="canonical" href="https://youlingred.github.io/404.html">
+  <link rel="canonical" href="https://youlingred.github.io/2018/06/01/lerna使用教程/index.html">
   
     <link rel="alternate" href="/atom.xml" title="kevin的个人博客" type="application/atom+xml">
   
@@ -289,17 +293,26 @@
 
   
   
+<aside class="sidebar sidebar-toc in" id="collapseToc" itemscope itemtype="http://schema.org/WPSideBar">
+  <div class="slimContent">
+    <nav id="toc" class="article-toc">
+      <h3 class="toc-title">文章目录</h3>
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#为什么使用lerna"><span class="toc-text">为什么使用lerna</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#一个lerna的repo结构就像这样："><span class="toc-text">一个lerna的repo结构就像这样：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#安装lerna"><span class="toc-text">安装lerna</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#通过npm安装lerna"><span class="toc-text">通过npm安装lerna</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#创建文件夹"><span class="toc-text">创建文件夹</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#初始化"><span class="toc-text">初始化</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#repo目录结构"><span class="toc-text">repo目录结构</span></a></li></ol></li></ol>
+    </nav>
+  </div>
+</aside>
+
 
 <main class="main" role="main">
   <div class="content">
-  <article id="page-" class="article article-type-page" itemscope itemtype="http://schema.org/BlogPosting">
+  <article id="post-lerna使用教程" class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
     
     <div class="article-header">
       
         
   
     <h1 class="article-title" itemprop="name">
-      404 Not Found：该页无法显示
+      lerna使用教程
     </h1>
   
 
@@ -307,22 +320,38 @@
       <div class="article-meta">
         <span class="article-date">
     <i class="icon icon-calendar-check"></i>
-	<a href="/404.html" class="article-date">
-	  <time datetime="2018-05-30T09:37:09.401Z" itemprop="datePublished">2018-05-30</time>
+	<a href="/2018/06/01/lerna使用教程/" class="article-date">
+	  <time datetime="2018-06-01T06:37:39.000Z" itemprop="datePublished">2018-06-01</time>
 	</a>
 </span>
         
+  <span class="article-category">
+    <i class="icon icon-folder"></i>
+    <a class="article-category-link" href="/categories/node/">node</a>
+  </span>
+
         
+  <span class="article-tag">
+    <i class="icon icon-tags"></i>
+	<a class="article-tag-link" href="/tags/多包管理/">多包管理</a>, <a class="article-tag-link" href="/tags/工具/">工具</a>
+  </span>
+
 
         
 
-        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/404.html#comments" class="article-comment-link">评论</a></span>
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2018/06/01/lerna使用教程/#comments" class="article-comment-link">评论</a></span>
         
       </div>
     </div>
     <div class="article-entry markdown-body" itemprop="articleBody">
       
-        <script type="text/javascript" src="http://www.qq.com/404/search_children.js" charset="utf-8" homepageurl="http://blog.cofess.com" homepagename="回到我的主页"></script>
+        <h2 id="为什么使用lerna"><a href="#为什么使用lerna" class="headerlink" title="为什么使用lerna"></a>为什么使用lerna</h2><p>模块化编程中<code>代码库拆分</code>和<code>代码共享</code>非常普遍，如果能把拆分的模块作为单独的node包来发布，通过npm分发代码可以得到很好的共用。但是这需要每个模块配置一个package.json，管理、测试、发布、更新都比较麻烦，这就需要lerna这样的工具来弥补npm的不足。<br><b>Lerna是一个工具，可以优化使用git和npm管理多包存储库的工作流程。</b></p>
+<h2 id="一个lerna的repo结构就像这样："><a href="#一个lerna的repo结构就像这样：" class="headerlink" title="一个lerna的repo结构就像这样："></a>一个lerna的repo结构就像这样：</h2><p>每个package都是可以发不成一个node模块<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">my-lerna-repo/</span><br><span class="line">  package.json</span><br><span class="line">  packages/</span><br><span class="line">    package-1/</span><br><span class="line">      package.json</span><br><span class="line">    package-2/</span><br><span class="line">      package.json</span><br></pre></td></tr></table></figure></p>
+<h2 id="安装lerna"><a href="#安装lerna" class="headerlink" title="安装lerna"></a>安装lerna</h2><h3 id="通过npm安装lerna"><a href="#通过npm安装lerna" class="headerlink" title="通过npm安装lerna"></a>通过npm安装lerna</h3><p> 下面三个命令任意选一个执行即可</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">$ npm install --global lerna</span><br><span class="line"><span class="comment"># install the latest 2.x version using the `prerelease` dist-tag </span></span><br><span class="line">$ npm install --global lerna@prerelease</span><br><span class="line"><span class="comment"># install version directly </span></span><br><span class="line">$ npm install --global lerna@^2.0.0-beta</span><br></pre></td></tr></table></figure>
+<h3 id="创建文件夹"><a href="#创建文件夹" class="headerlink" title="创建文件夹"></a>创建文件夹</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ mkdir lerna-repo</span><br><span class="line">$ <span class="built_in">cd</span> lerna-repo</span><br></pre></td></tr></table></figure>
+<h3 id="初始化"><a href="#初始化" class="headerlink" title="初始化"></a>初始化</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ lerna init</span><br></pre></td></tr></table></figure>
+<h3 id="repo目录结构"><a href="#repo目录结构" class="headerlink" title="repo目录结构"></a>repo目录结构</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">lerna-repo/</span><br><span class="line">  packages/</span><br><span class="line">  package.json</span><br><span class="line">  lerna.json</span><br></pre></td></tr></table></figure>
 
       
     </div>
@@ -332,7 +361,7 @@
     
     <li class="post-copyright-link hidden-xs">
       <strong>本文链接：</strong>
-      <a href="https://youlingred.github.io//404.html" title="404 Not Found：该页无法显示" target="_blank" rel="external">https://youlingred.github.io//404.html</a>
+      <a href="https://youlingred.github.io/2018/06/01/lerna使用教程/" title="lerna使用教程" target="_blank" rel="external">https://youlingred.github.io/2018/06/01/lerna使用教程/</a>
     </li>
     
     <li class="post-copyright-license">
@@ -363,12 +392,43 @@
   </article>
   
     
+  <section id="comments">
+  	
+       
+    <div id="uyan_frame"></div>
+
+    
+  </section>
+
 
   
 </div>
 
   <nav class="bar bar-footer clearfix" data-stick-bottom>
   <div class="bar-inner">
+  
+  <ul class="pager pull-left">
+    
+    <li class="prev">
+      <a href="/2018/06/01/如何删除GIT中的.DS_Store/" title="如何删除GIT中的.DS_Store"><i class="icon icon-angle-left" aria-hidden="true"></i><span>&nbsp;&nbsp;上一篇</span></a>
+    </li>
+    
+    
+    <li class="next">
+      <a href="/2018/05/31/unit单元测试和e2e端到端测试的区别/" title="unit单元测试和e2e端到端测试的区别"><span>下一篇&nbsp;&nbsp;</span><i class="icon icon-angle-right" aria-hidden="true"></i></a>
+    </li>
+    
+    
+    <li class="toggle-toc">
+      <a class="toggle-btn collapsed" data-toggle="collapse" href="#collapseToc" aria-expanded="false" title="文章目录" role="button">
+        <span>[&nbsp;</span><span>文章目录</span>
+        <i class="text-collapsed icon icon-anchor"></i>
+        <i class="text-in icon icon-close"></i>
+        <span>]</span>
+      </a>
+    </li>
+    
+  </ul>
   
   
   <!-- Button trigger modal -->
@@ -481,6 +541,16 @@ window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
     
     
     
+        
+
+
+    
+    
+        
+    
+    <script defer type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=[object Object]"></script>
+
+
     
     
 
