@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://youlingred.github.io/"/>
-  <updated>2018-06-01T08:55:55.104Z</updated>
+  <updated>2018-06-06T02:08:25.085Z</updated>
   <id>https://youlingred.github.io/</id>
   
   <author>
@@ -15,6 +15,57 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>nodejs常用库</title>
+    <link href="https://youlingred.github.io/2018/06/06/nodejs%E5%B8%B8%E7%94%A8%E5%BA%93/"/>
+    <id>https://youlingred.github.io/2018/06/06/nodejs常用库/</id>
+    <published>2018-06-06T02:02:28.000Z</published>
+    <updated>2018-06-06T02:08:25.085Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="文件操作"><a href="#文件操作" class="headerlink" title="文件操作"></a>文件操作</h2><h3 id="rimraf-文件删除"><a href="#rimraf-文件删除" class="headerlink" title="rimraf 文件删除"></a>rimraf 文件删除</h3><p><a href="https://github.com/isaacs/rimraf.git" target="_blank" rel="noopener">github</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;文件操作&quot;&gt;&lt;a href=&quot;#文件操作&quot; class=&quot;headerlink&quot; title=&quot;文件操作&quot;&gt;&lt;/a&gt;文件操作&lt;/h2&gt;&lt;h3 id=&quot;rimraf-文件删除&quot;&gt;&lt;a href=&quot;#rimraf-文件删除&quot; class=&quot;headerlink&quot; ti
+      
+    
+    </summary>
+    
+      <category term="node" scheme="https://youlingred.github.io/categories/node/"/>
+    
+    
+      <category term="-node库" scheme="https://youlingred.github.io/tags/node%E5%BA%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MAC命令行tree生成属性目录图</title>
+    <link href="https://youlingred.github.io/2018/06/05/MAC%E5%91%BD%E4%BB%A4%E8%A1%8Ctree%E7%94%9F%E6%88%90%E5%B1%9E%E6%80%A7%E7%9B%AE%E5%BD%95%E5%9B%BE/"/>
+    <id>https://youlingred.github.io/2018/06/05/MAC命令行tree生成属性目录图/</id>
+    <published>2018-06-05T07:34:07.000Z</published>
+    <updated>2018-06-05T07:50:49.769Z</updated>
+    
+    <content type="html"><![CDATA[<p>##mac tree命令<br>mac下默认是没有 tree命令的，不过我们可以使用find命令模拟出tree命令的效果，如显示当前目录的 tree 的命令：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ find . -<span class="built_in">print</span> | sed -e <span class="string">'s;[^/]*/;|____;g;s;____|; |;g'</span></span><br></pre></td></tr></table></figure><p>当然你也可以写一个别名来快速执行该命令，运行如下命令，将上面这个命令写到~/.bash_profile里，以后直接运行tree命令就更方便了:</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">alias</span> tree=<span class="string">"find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'"</span></span><br></pre></td></tr></table></figure><p>也可以使用 homebrew 安装 tree 命令行：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ brew install tree</span><br></pre></td></tr></table></figure><p>这样就在你的mac上安装了 tree 命令行了。</p><p>##tree命令行参数（只实用与安装了tree命令行工具）：</p><ul><li>-a 显示所有文件和目录。</li><li>-A 使用ASNI绘图字符显示树状图而非以ASCII字符组合。</li><li>-C 在文件和目录清单加上色彩，便于区分各种类型。</li><li>-d 显示目录名称而非内容。</li><li>-D 列出文件或目录的更改时间。</li><li>-f 在每个文件或目录之前，显示完整的相对路径名称。</li><li>-F 在执行文件，目录，Socket，符号连接，管道名称名称，各自加上”*”,”/“,”=”,”@”,”|”号。</li><li>-g 列出文件或目录的所属群组名称，没有对应的名称时，则显示群组识别码。</li><li>-i 不以阶梯状列出文件或目录名称。</li><li>-I 不显示符合范本样式的文件或目录名称。</li><li>-l 如遇到性质为符号连接的目录，直接列出该连接所指向的原始目录。</li><li>-n 不在文件和目录清单加上色彩。</li><li>-N 直接列出文件和目录名称，包括控制字符。</li><li>-p 列出权限标示。</li><li>-P 只显示符合范本样式的文件或目录名称。</li><li>-q 用”?”号取代控制字符，列出文件和目录名称。</li><li>-s 列出文件或目录大小。</li><li>-t 用文件和目录的更改时间排序。</li><li>-u 列出文件或目录的拥有者名称，没有对应的名称时，则显示用户识别码。</li><li>-x 将范围局限在现行的文件系统中，若指定目录下的某些子目录，其存放于另一个文件系统上，则将该子目录予以排除在寻找范围外。</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;##mac tree命令&lt;br&gt;mac下默认是没有 tree命令的，不过我们可以使用find命令模拟出tree命令的效果，如显示当前目录的 tree 的命令：&lt;/p&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;
+      
+    
+    </summary>
+    
+      <category term="命令行" scheme="https://youlingred.github.io/categories/%E5%91%BD%E4%BB%A4%E8%A1%8C/"/>
+    
+    
+      <category term="-mac -cmd" scheme="https://youlingred.github.io/tags/mac-cmd/"/>
+    
+  </entry>
   
   <entry>
     <title>如何删除GIT中的.DS_Store</title>
